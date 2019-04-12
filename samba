@@ -7,4 +7,3 @@ sudo mkdir /srv/readonly
 sudo chmod 755 /srv/readonly
 sudo service smbd restart
 sudo service smbd status
-sudo useradd user2 –c "user2" –g users –m –d /home/user2 –s /bin/bash
