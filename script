@@ -1,4 +1,4 @@
-
+#!/bin/bash
 echo -e "
 [global]
 netbios name=samba
