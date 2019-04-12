@@ -1,5 +1,5 @@
 
-echo "
+echo -e "
 [global]
 netbios name=samba
 security=user
@@ -35,4 +35,4 @@ writelist=user2
 force directory mode=0777
 force create mode=0777
 
-" | sudo tee -a /etc/samba/smb.conf
+" | sudo tee -a /etc/samba/smb.conf 
